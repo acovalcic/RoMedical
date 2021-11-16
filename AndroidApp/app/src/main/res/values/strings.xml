@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">RoMedical</string>
+    <string name="cautare">Căutare</string>
+    <string name="date_personale">Date personale</string>
+    <string name="feedback">Feedback</string>
+    <string name="date_personale_de_sanatate">Date personale de sănătate</string>
+    <string name="channel_name">Notificari</string>
+    <string name="channel_description">DescriereNotificari</string>
+    <string name="clasament">Clasament</string>
+    <string name="doctor">Doctor</string>
+    <string name="spital">Spital</string>
+    <string name="medie">Medie</string>
+    <string name="inchidere">Închidere</string>
+    <string name="detalii_spital">Detalii spital</string>
+    <string name="denumire">Denumire</string>
+    <string name="afisare_in_google_maps">Afișare în Google Maps</string>
+    <string name="anulare">Anulare</string>
+    <string name="c_utare_spital">Căutare spital</string>
+    <string name="afi_eaz_toate_spitalele">Afișează Toate Spitalele</string>
+    <string name="mt_hint">Introduceți denumirea/localitatea</string>
+    <string name="mt_placeholder">Caută după denumire/localitate</string>
+    <string name="introduce_i_date_despre_starea_dvs_de_s_n_tate_care_crede_i_c_ar_fi_utile_personalului_medical_de_urgen_n_cazul_producerii_unui_incident">Introduceți date despre starea dvs. de sănătate care credeți că ar fi utile personalului medical de urgență în cazul producerii unui incident</string>
+    <string name="dori_i_crearea_unei_notific_ri_cu_datele_introdse_mai_sus">Doriți crearea unei notificări cu datele introdse mai sus?</string>
+    <string name="salvare_date_i_preferin_e">Salvare Date și Preferințe</string>
+    <string name="introduce_i_numele_doctorului">Introduceți numele doctorului</string>
+    <string name="not_spital">Notă Spital</string>
+    <string name="not_doctor">Notă Doctor</string>
+    <string name="men_iuni">Mențiuni</string>
+    <string name="introduce_i_men_iuni_cu_privire_la_spital_doctor">(Opțional) Introduceți mențiuni cu privire la spital/doctor</string>
+    <string name="trimite_feedback">Trimite Feedback</string>
+    <string name="afi_eaz_clasament_doctori">Afișează Clasament Doctori</string>
+    <string name="afi_eaz_clasament_spitale">Afișează Clasament Spitale</string>
+    <string name="categorie">Categorie</string>
+    <string name="judet">Județ</string>
+
+    <string-array name="note">
+        <item>--Alegeți Nota--</item>
+        <item>10</item>
+        <item>9</item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

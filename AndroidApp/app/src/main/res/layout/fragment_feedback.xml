@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/feedback"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judet"
+            android:paddingLeft="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_judet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categorie"
+            android:paddingLeft="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_categorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spital"
+            android:paddingLeft="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_denumire_spital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doctor"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edittext_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:maxLength="45"
+        android:hint="@string/introduce_i_numele_doctorului"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_spital"
+            android:paddingLeft="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_nota_spital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_doctor"
+            android:paddingLeft="10dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_nota_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="@string/men_iuni"
+        />
+
+    <EditText
+        android:id="@+id/edittext_mentiuni"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/introduce_i_men_iuni_cu_privire_la_spital_doctor"
+        android:gravity="top|start"
+        android:maxLength="200"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:scrollbars="vertical"
+        />
+
+    <Button
+        android:id="@+id/trimite_feedback"
+        android:layout_gravity="center"
+        android:text="@string/trimite_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/clasament_doctor"
+        android:layout_gravity="center"
+        android:text="@string/afi_eaz_clasament_doctori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/clasament_spital"
+        android:layout_gravity="center"
+        android:text="@string/afi_eaz_clasament_spitale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

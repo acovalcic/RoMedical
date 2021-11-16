@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_personale_de_sanatate"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edittext_datepers"
+        android:key="et_date"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="@string/introduce_i_date_despre_starea_dvs_de_s_n_tate_care_crede_i_c_ar_fi_utile_personalului_medical_de_urgen_n_cazul_producerii_unui_incident"
+        android:gravity="top|start"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:scrollbars="vertical"
+        android:textSize="16sp"
+        />
+
+    <Switch
+        android:id="@+id/switch_afisare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showText="true"
+        android:thumbTextPadding="3dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/dori_i_crearea_unei_notific_ri_cu_datele_introdse_mai_sus"
+        android:textOn="Da"
+        android:textOff="Nu"
+        />
+
+    <Button
+        android:id="@+id/buton_salvare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/salvare_date_i_preferin_e"
+        />
+</LinearLayout>
